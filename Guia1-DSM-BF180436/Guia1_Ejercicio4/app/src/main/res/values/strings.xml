@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia1_Ejercicio4</string>
+    <string name="btnprocesar">Procesar</string>
+    <string name="txtpunto">Ingrese un punto cartesiano</string>
+    <string name="txtcantidad">Cantidad de puntos</string>
+    <string name="lblcantidad">Ingrese la cantidad de puntos</string>
+    <string name="txtcartesianox">Punto cartesiano x</string>
+    <string name="txtcartesianoy">Punto cartesiano y</string>
+    <string name="btncontinuar">Continuar</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guia1_Ejercicio2</string>
+    <string name="resultado">Resultado</string>
+    <string name="verificar">Verificar</string>
+    <string name="ingrese_la_nota_del_alumno_2">Ingrese la nota del alumno 2</string>
+    <string name="ingrese_la_nota_del_alumno_1">Ingrese la nota del alumno 1</string>
+    <string name="_10_notas_de_alumnos">10 notas de alumnos</string>
+    <string name="ingrese_la_nota_del_alumno_10">Ingrese la nota del alumno 10</string>
+    <string name="ingrese_la_nota_del_alumno_9">Ingrese la nota del alumno 9</string>
+    <string name="ingrese_la_nota_del_alumno_8">Ingrese la nota del alumno 8</string>
+    <string name="ingrese_la_nota_del_alumno_7">Ingrese la nota del alumno 7</string>
+    <string name="ingrese_la_nota_del_alumno_6">Ingrese la nota del alumno 6</string>
+    <string name="ingrese_la_nota_del_alumno_5">Ingrese la nota del alumno 5</string>
+    <string name="ingrese_la_nota_del_alumno_4">Ingrese la nota del alumno 4</string>
+    <string name="ingrese_la_nota_del_alumno_3">Ingrese la nota del alumno 3</string>
+</resources>

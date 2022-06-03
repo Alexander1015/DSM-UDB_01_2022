@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guia1_Ejemplo1</string>
+    <string name="btnsumar">Sumar</string>
+    <string name="txtprimero">Ingrese el primer valor</string>
+    <string name="txtsegundo">Ingrese el segundo valor</string>
+    <string name="txtresultado">Resultado</string>
+    <string name="sumar">SUMAR</string>
+    <string name="restar">RESTAR</string>
+    <string name="dividir">DIVIDIR</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+</resources>

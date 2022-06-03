@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guia2_Ejemplo3</string>
+
+    <!-- Activity Main -->
+    <string name="lblPermiso">Estado del permiso:</string>
+    <string name="lblContacto"></string>
+    <string name="btnContactos">Abrir Contactos</string>
+
+
+</resources>

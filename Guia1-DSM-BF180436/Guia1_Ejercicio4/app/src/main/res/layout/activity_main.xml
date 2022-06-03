@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnprocesar2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        android:onClick="cantidadtotal"
+        android:text="@string/btncontinuar"
+        app:layout_constraintBottom_toTopOf="@+id/txtpuntoy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcantidad" />
+
+    <EditText
+        android:id="@+id/txtcantidad"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtcantidad"
+        android:inputType="number"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/btnprocesar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtpuntoy"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="19dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtcartesianoy"
+        android:inputType="numberSigned"
+        android:textColorHint="#757575"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnprocesar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtpuntox"
+        app:layout_constraintTop_toBottomOf="@+id/btnprocesar2" />
+
+    <Button
+        android:id="@+id/btnprocesar"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="agregar"
+        android:text="@string/btnprocesar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/lblresultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtpuntoy" />
+
+    <EditText
+        android:id="@+id/txtpuntox"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="34dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtcartesianox"
+        android:inputType="numberSigned"
+        android:textColorHint="#757575"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/txtpuntoy"
+        app:layout_constraintEnd_toStartOf="@+id/txtpuntoy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtpuntoy" />
+
+    <TextView
+        android:id="@+id/lblresultado"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="251dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnprocesar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

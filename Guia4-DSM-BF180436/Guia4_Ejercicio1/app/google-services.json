@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "543261323216",
+    "project_id": "guia4-ejercicio1",
+    "storage_bucket": "guia4-ejercicio1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543261323216:android:58a1813cbe40f46a9453d5",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.guia4_ejercicio1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543261323216-r9uieg4alni25ltmh8i5ifhpfacl94d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGrT5MS1r9Cstl4tM4EdPE2bDT4bzhs-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543261323216-r9uieg4alni25ltmh8i5ifhpfacl94d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

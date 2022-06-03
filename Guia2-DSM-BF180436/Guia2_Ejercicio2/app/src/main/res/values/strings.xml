@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Guia2_Ejercicio2</string>
+
+    <!--Main Activiy-->
+    <string name="lblNombre">Nombre:</string>
+    <string name="lblHoras">Horas Trabajadas:</string>
+    <string name="btnCalcular">Calcular Salario</string>
+
+    <!--Second Activity-->
+    <string name="lblPrecioHoras">C/Hora equivale a $8.50</string>
+    <string name="lblNombreEmp">Nombre:</string>
+    <string name="lblSalarioNeto">Salario Neto:</string>
+    <string name="lblISSS">ISSS (2%):</string>
+    <string name="lblAFP">AFP (3%):</string>
+    <string name="lblRenta">Renta (4%):</string>
+    <string name="btnRegresar">Finalizar</string>
+    <string name="lblHorasTot">Horas:</string>
+</resources>

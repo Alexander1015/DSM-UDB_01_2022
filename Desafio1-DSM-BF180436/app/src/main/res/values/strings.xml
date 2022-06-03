@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Desafio1-BF180436</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- Ejercicio 1 -->
+    <string name="hint_number_a">Ingrese el valor "a"</string>
+    <string name="hint_number_b">Ingrese el valor "b"</string>
+    <string name="hint_number_c">Ingrese el valor "c"</string>
+    <string name="btn_calcular_ejer1">CALCULAR FORMULA CUADRATICA</string>
+    <!-- Ejercicio 2 -->
+    <string name="hint_list">Ingrese datos separados por [,]</string>
+    <string name="btn_calcular_ejer2">VERIFICAR CANTIDAD DE VOTOS</string>
+    <!-- Ejercicio 3 -->
+    <string name="hint_name_1">Ingrese el nombre del empleado 1</string>
+    <string name="hint_last_1">Ingrese el apellido del empleado 1</string>
+    <string name="hint_place_1">Ingrese el cargo del empleado 1</string>
+    <string name="hint_sal_1">Ingrese las horas del empleado 1</string>
+    <string name="hint_name_2">Ingrese el nombre del empleado 2</string>
+    <string name="hint_last_2">Ingrese el apellido del empleado 2</string>
+    <string name="hint_place_2">Ingrese el cargo del empleado 2</string>
+    <string name="hint_sal_2">Ingrese las horas del empleado 2</string>
+    <string name="hint_name_3">Ingrese el nombre del empleado 3</string>
+    <string name="hint_last_3">Ingrese el apellido del empleado 3</string>
+    <string name="hint_place_3">Ingrese el cargo del empleado 3</string>
+    <string name="hint_sal_3">Ingrese las horas del empleado 3</string>
+    <string name="btn_calcular_ejer3">CALCULAR SALARIOS</string>
+    <!-- Login -->
+    <string name="btn_login_ingresar">Iniciar Sesión</string>
+    <string name="btn_login_ingresar_log">Registrarse e Ingresar</string>
+    <string name="hint_txtuser">Ingrese el Usuario</string>
+    <string name="hint_txtpassword">Ingrese la Contraseña</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ejercicio1Fragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/txtnuma"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@color/divider"
+            android:ems="10"
+            android:hint="@string/hint_number_a"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/primary_text"
+            android:textColorHint="#37474F"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtnumb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/txtnumb"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@color/divider"
+            android:ems="10"
+            android:hint="@string/hint_number_b"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/primary_text"
+            android:textColorHint="#37474F"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtnumc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtnuma"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/txtnumc"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@color/divider"
+            android:ems="10"
+            android:hint="@string/hint_number_c"
+            android:inputType="numberSigned|numberDecimal"
+            android:textColor="@color/primary_text"
+            android:textColorHint="#37474F"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_ejer1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtnumb"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_ejer1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="361dp"
+            android:background="@color/accent"
+            android:backgroundTint="@color/accent"
+            android:text="@string/btn_calcular_ejer1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtnumc"
+            android:drawableLeft="@drawable/math_integral_box"
+            android:drawableRight="@drawable/math_integral_box"
+            android:paddingHorizontal="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/lblresult_ejer1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ejer1"
+            app:layout_constraintVertical_bias="0.159"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

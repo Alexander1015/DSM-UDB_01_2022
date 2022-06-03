@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Componentes App</string>
+
+    <!-- Activity Main -->
+    <string name="txtNombre"></string>
+    <string name="txtEdad"></string>
+    <string name="btnAceptar">Aceptar</string>
+
+    <string name="hntNombre">Ingresar Nombre</string>
+    <string name="hntEdad">Ingresar Edad</string>
+
+    <!-- Segunda Actividad -->
+    <string name="txtvNombre"></string>
+    <string name="txtvEdad"></string>
+    <string name="btnFinalizar">Finalizar</string>
+</resources>

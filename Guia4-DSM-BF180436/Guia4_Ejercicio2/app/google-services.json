@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312322585103",
+    "firebase_url": "https://guia4-ejercicio2-default-rtdb.firebaseio.com",
+    "project_id": "guia4-ejercicio2",
+    "storage_bucket": "guia4-ejercicio2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312322585103:android:90009e44f493f3669b297a",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.guia4_ejercicio2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312322585103-u971394ipb8fkjg1nmb8gs1t63cj7o6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChC3joatOhfznBN6Ox7ZU-X33HcE4Qpfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312322585103-u971394ipb8fkjg1nmb8gs1t63cj7o6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

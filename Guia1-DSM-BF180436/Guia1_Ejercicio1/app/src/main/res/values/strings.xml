@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guia1_Ejercicio1</string>
+    <string name="txtnum1">Saber si dos numeros son divisibles</string>
+    <string name="btnverificar">Verificar</string>
+    <string name="lblresultado">Resultado</string>
+    <string name="txtnum2">Ingrese el primer numero</string>
+    <string name="txtnum3">Ingrese el segundo numero</string>
+</resources>

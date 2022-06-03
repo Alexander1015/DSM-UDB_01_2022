@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guia1_Ejercicio3</string>
+    <string name="resultado"></string>
+    <string name="verificar_y_reiniciar">Verificar y reiniciar</string>
+    <string name="agregar_digito">Agregar digito</string>
+    <string name="ingrese_el_digito">Ingrese el digito</string>
+</resources>
